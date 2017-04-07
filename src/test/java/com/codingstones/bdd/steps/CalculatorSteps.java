@@ -32,4 +32,9 @@ public class CalculatorSteps {
         assertEquals(arg1, calculator.currentValue());
     }
 
+    @When("^I substract (\\d+) and (\\d+)$")
+    public void i_substract_and(int arg1, int arg2) throws Throwable {
+        calculator.substract(arg1, arg2);
+    }
+
 }

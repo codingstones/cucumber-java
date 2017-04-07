@@ -5,6 +5,9 @@ public class Calculator {
     public void sum(int aNumber, int anotherNumber){
         value = aNumber + anotherNumber;
     }
+    public void substract(int aNumber, int anotherNumber) {
+        value = aNumber - anotherNumber;
+    }
 
     public int currentValue(){
         return value;
