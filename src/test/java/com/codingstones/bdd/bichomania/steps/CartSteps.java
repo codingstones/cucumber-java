@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -26,7 +27,8 @@ public class CartSteps {
     public void setUp() {
         System.setProperty("webdriver.gecko.driver", "src/test/resources/drivers/geckodriver-mac");
         System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE,"/dev/null");
-        webDriver = new FirefoxDriver(new FirefoxProfile());
+        FirefoxOptions options = new FirefoxOptions().setProfile(new FirefoxProfile());
+        webDriver = new FirefoxDriver(options);
     }
 
     @After
