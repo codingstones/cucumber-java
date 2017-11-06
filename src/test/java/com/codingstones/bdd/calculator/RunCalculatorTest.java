@@ -1,4 +1,4 @@
-package com.codingstones.bdd;
+package com.codingstones.bdd.calculator;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

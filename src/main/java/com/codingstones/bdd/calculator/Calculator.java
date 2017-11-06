@@ -1,4 +1,4 @@
-package com.codingstones.bdd;
+package com.codingstones.bdd.calculator;
 
 public class Calculator {
     private int value;

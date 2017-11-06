@@ -1,6 +1,6 @@
-package com.codingstones.bdd.steps;
+package com.codingstones.bdd.calculator.steps;
 
-import com.codingstones.bdd.Calculator;
+import com.codingstones.bdd.calculator.Calculator;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
