@@ -5,7 +5,7 @@ public class Calculator {
     public void sum(int aNumber, int anotherNumber){
         value = aNumber + anotherNumber;
     }
-    public void substract(int aNumber, int anotherNumber) {
+    public void subtract(int aNumber, int anotherNumber) {
         value = aNumber - anotherNumber;
     }
 
