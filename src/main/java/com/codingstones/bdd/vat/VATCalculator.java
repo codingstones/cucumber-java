@@ -5,6 +5,6 @@ public class VATCalculator {
         if (product.equals("diapers")) return (float) (price * 1.21);
         if (product.equals("bread")) return (float) (price * 1.04);
         if (product.equals("wine")) return (float) (price * 1.10);
-        return price;
+        return -1;
     }
 }
