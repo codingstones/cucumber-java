@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        format = { "pretty", "html:target/features" },
+        format = { "pretty", "html:target/vat/features" },
         features = "classpath:features/vat"
 )
 public class RunVATTest {
