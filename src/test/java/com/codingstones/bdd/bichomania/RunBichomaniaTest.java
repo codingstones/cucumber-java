@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    format = { "pretty", "html:target/features" },
+    format = { "pretty", "html:target/bichomania/features" },
     features = "classpath:features/bichomania"
 )
 
