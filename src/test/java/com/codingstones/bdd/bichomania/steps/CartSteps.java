@@ -61,7 +61,7 @@ public class CartSteps {
         addToCart.click();
     }
 
-    @Then("^the product should be present in my cart$")
+    @Then("^the dog product should be present in my cart$")
     public void the_product_should_be_present_in_my_cart() throws Throwable {
         WebDriverWait wait = new WebDriverWait(webDriver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("line_items")));

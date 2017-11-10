@@ -6,4 +6,4 @@ Feature: As pet owner I want to add a product to the cart so that improves my pe
   Scenario: add a product to the cart
     Given I am looking for a dog product
     When I add the product to the cart
-    Then the product should be present in my cart
+    Then the dog product should be present in my cart
